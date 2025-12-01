@@ -1,8 +1,0 @@
-# virtual environment
-.venv/
-
-# environment variables
-.env
-
-# .gitignore
-.gitignore
