@@ -2,7 +2,7 @@ from flask import Flask, jsonify
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)   # allow all origins (safe for hobby projects)
+CORS(app)     # allow frontend → backend calls
 
 @app.route("/")
 def hello():
